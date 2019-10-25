@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src = "script.js"></script>
+</head>
+<body>
+	<div class = "container align">
+		<div class = "row">
+			<div class = "col-md-12 heading">
+				<h1>Todo List</h1>	
+				<hr>
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "col-md-6">
+					<input type="text" name="todo" id = "item" placeholder="Item" required><br>
+					<button onclick="addItem()" class = "btn btn-outline-success">Add Item</button>
+			</div>
+			<div class =  "col-md-6">
+				<ul id = "itemlist">
+				</ul>
+			</div>
+		</div>	
+	</div>
+</body>
+</html>
